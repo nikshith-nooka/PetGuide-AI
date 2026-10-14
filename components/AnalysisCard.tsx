@@ -2,7 +2,7 @@ import React from 'react';
 import { AnalysisResult, UrgencyLevel } from '../types';
 import { ShieldCheckIcon, ExclamationCircleIcon, ShieldAlertIcon, LightBulbIcon, DocumentTextIcon } from './icons/InfoIcons';
 
-const urgencyStyles: { [key in UrgencyLevel]: { bgColor: string, textColor: string, borderColor: string, icon: JSX.Element, title: string } } = {
+const urgencyStyles: { [key in UrgencyLevel]: { bgColor: string, textColor: string, borderColor: string, icon: React.ReactNode, title: string } } = {
   [UrgencyLevel.HomeCare]: {
     bgColor: 'bg-green-50',
     textColor: 'text-green-800',

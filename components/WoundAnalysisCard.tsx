@@ -3,7 +3,7 @@ import { WoundAnalysisResult, UrgencyLevel, FeatureView } from '../types';
 import { ShieldCheckIcon, ExclamationCircleIcon, ShieldAlertIcon, LightBulbIcon, EyeIcon } from './icons/InfoIcons';
 import { VetIcon, ChatBubbleIcon, StethoscopeIcon } from './icons/FeatureIcons';
 
-const urgencyStyles: { [key in UrgencyLevel]: { bgColor: string, textColor: string, borderColor: string, icon: JSX.Element, title: string } } = {
+const urgencyStyles: { [key in UrgencyLevel]: { bgColor: string, textColor: string, borderColor: string, icon: React.ReactNode, title: string } } = {
   [UrgencyLevel.HomeCare]: {
     bgColor: 'bg-green-50',
     textColor: 'text-green-800',

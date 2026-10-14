@@ -1,4 +1,6 @@
 
+import type { ReactNode } from 'react';
+
 export interface Pet {
   name: string;
   age: string;
@@ -40,7 +42,7 @@ export type FeatureView = 'checker' | 'chatbot' | 'nutrition' | 'vet_finder' | '
 export interface Feature {
   title: string;
   description: string;
-  icon: JSX.Element;
+  icon: ReactNode;
   view: FeatureView;
   enabled: boolean;
 }

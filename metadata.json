@@ -4,7 +4,9 @@
     "geolocation"
   ],
   "name": "PetGuide AI",
-  "description": "",
+  "description": "AI-powered pet wellness companion providing breed identification, health symptom triage, wound scanning, tailored nutrition planning, and nearby vet discovery.",
   "prompt": "",
-  "majorCapabilities": []
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
