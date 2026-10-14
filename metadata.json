@@ -1,0 +1,10 @@
+{
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "name": "PetGuide AI",
+  "description": "",
+  "prompt": "",
+  "majorCapabilities": []
+}
